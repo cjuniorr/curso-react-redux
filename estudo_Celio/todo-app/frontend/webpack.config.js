@@ -10,6 +10,8 @@ module.exports = {
     devServer: {
         port: 8080,
         contentBase: './public',
+        // host: '0.0.0.0',
+        // disableHostCheck: true
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],
